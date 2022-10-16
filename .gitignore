@@ -41,6 +41,6 @@ build/
 ### Mac OS ###
 .DS_Store
 .mvn
-mvnv
-mvnv.cmd
+mvnw
+mvnw.cmd
 pom.xml
