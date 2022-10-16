@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.javafxlogin.LoggedInController">
+   <children>
+      <Label fx:id="label_welcome" alignment="CENTER" layoutX="170.0" layoutY="40.0" prefHeight="46.0" prefWidth="261.0" text="Welcome!" textAlignment="CENTER">
+         <font>
+            <Font name="PT Mono Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_fav_channel" alignment="CENTER" contentDisplay="CENTER" layoutX="35.0" layoutY="127.0" prefHeight="95.0" prefWidth="530.0" text="Your are awesome!" textAlignment="CENTER">
+         <font>
+            <Font name="PT Mono Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_logout" layoutX="232.0" layoutY="234.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="136.0" style="-fx-background-color: #f39d0a;" text="LogOut">
+         <font>
+            <Font name="PT Mono Bold" size="17.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
